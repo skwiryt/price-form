@@ -1,0 +1,18 @@
+@import '../../../styles/settings.scss';
+
+.formWrapper {
+  width: 300px;
+  margin: 10vh auto;
+  padding: 2 * $baseSpace;
+  border: 1px solid $colorLigthGrey;
+  background-color: $colorBox;
+}
+.header {
+  font-size: 24px;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+.subheader {
+  font-weight: normal;
+  font-size: 14px;
+}

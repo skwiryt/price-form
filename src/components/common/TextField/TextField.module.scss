@@ -1,0 +1,34 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  margin: $baseSpace 0;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 15px;
+  text-align: left;
+}
+.textBox {
+  margin-top: 0.5 * $baseSpace;
+  display:block;
+  font-family: inherit;
+  font-size: 15px;
+  color: $colorText;
+  width: 100%;
+  border: 1px solid $colorLigthGrey;
+  border-radius: 2px;
+  padding: 7px;
+
+  &:focus {
+    border: 1px solid $colorFocus;
+    outline: none;
+    box-shadow: 0 0 8px $colorFocus;
+  }
+}
+
+.error {
+  margin-top: 0.3 * $baseSpace;
+  color: $colorError;
+  font-size: 12px;
+}

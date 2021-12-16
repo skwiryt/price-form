@@ -1,0 +1,30 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  width: 500px;
+  margin: 20vh auto;
+  padding: 2 * $baseSpace;
+  border: 1px solid $colorLigthGrey;
+  &.error {
+    background-color: rgb(226, 130, 130);
+  }
+  &.success {
+    background-color: rgb(87, 167, 87);
+  }
+}
+.header {
+  font-size: 24px;
+  margin-bottom: 18px;
+  font-weight: bold;
+  color: $colorBox;
+}
+.message {
+  font-weight: normal;
+  font-size: 14px;
+  &.success {  
+    color:rgb(0, 53, 0);
+  }
+  &.error {  
+    color: rgb(100, 48, 48);
+  }
+}

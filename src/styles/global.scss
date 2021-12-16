@@ -1,0 +1,37 @@
+@import 'normalize.scss';
+@import 'settings.scss';
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+button, input, select, textarea {margin: 0;}
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+input, select {vertical-align: middle;}
+
+
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+html {overflow-y: scroll;}
+body {
+  font-family: AvenirNext, Avenir, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background: $colorMain;
+  color: $colorText;
+}
+

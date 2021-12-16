@@ -1,0 +1,19 @@
+@import '../../../styles/settings.scss';
+
+
+.btn {
+  margin: $baseSpace 0 0;
+  color: $colorMain;
+  // padding: 6px 20px;
+  background-color: $colorBtn;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid $colorBtn;
+  &:hover {
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
